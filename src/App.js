@@ -1,8 +1,14 @@
 import './App.css';
+import HomeScreen from './componets/homescreen/homescreen';
+import AboutMe from './componets/aboutme/aboutme';
+import 'typeface-roboto';
 
 function App() {
   return (
-    <h1>TEST</h1>
+    <>
+      <HomeScreen />
+      <AboutMe />
+    </>
   );
 }
 
